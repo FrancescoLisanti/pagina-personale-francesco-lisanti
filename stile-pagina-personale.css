@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  background-color: #2ed47b;
+  color: #ffff;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.nome {
+  margin-left: 50px
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.figa {
+  margin-left: 40px;
+}
+
+.viaggi {
+  margin-left: 40px;
+}
+
+.bio {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9e9e9;
+  color: #000000;
+  height: 400px;
+}
+
+.description{
+  width: 50%;
+}
+.frase{
+  width: 100%;
+  font-size: 17px;
+}
