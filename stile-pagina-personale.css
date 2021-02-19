@@ -81,7 +81,6 @@
 padding: 1rem;
 }
 
-
 .container-sections{
   display: flex;
   justify-content: center;
@@ -93,7 +92,7 @@ padding: 1rem;
   background-color: #F5F5F5;
   width: 95%;
   border-radius: 20px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 
@@ -115,6 +114,48 @@ padding: 1rem;
 .card-img-top{
   padding: 20px;
 }
+
+.container-work{
+  display: flex;
+  justify-content: center;
+}
+
+.work {
+  display: flex;
+  background-color: #F5F5F5;
+  width: 95%;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.head-work{
+  padding: 50px;
+}
+
+.carousel-inner{
+  width: 30px
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item img {
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  justify-content: center;
+  margin-bottom: 150px
+}
+
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  position: absolute;
+  left: 200px
+  }
 
 
 
@@ -140,4 +181,5 @@ padding: 1rem;
     justify-content: center;
     height: 120rem;
   }
+
 }
