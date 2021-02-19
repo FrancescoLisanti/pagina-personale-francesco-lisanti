@@ -4,50 +4,98 @@
   box-sizing: border-box;
 }
 
+.navbar{
+  height: 5rem;
+}
+
+.navbar-brand{
+ margin-left: 20px;
+}
+
+.nav-item {
+  margin-right: 50px
+}
+
+.collapse{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
 .menu-container {
   display: flex;
   background-color: #2ed47b;
   color: #ffff;
   height: 5rem;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:center;
 }
 
 .nome {
-  margin-left: 50px
+  display: flex;
+  justify-content: center;
 }
 
 .links{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-right: 50px;
+  justify-content: center;
 }
 
 .figa {
   margin-left: 40px;
+  margin-right: 20px;
 }
 
 .viaggi {
   margin-left: 40px;
 }
 
-.bio {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #e9e9e9;
-  color: #000000;
+.sfondo{
   height: 400px;
 }
 
-.description{
-  width: 50%;
+.container-bio{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
-.frase{
-  width: 100%;
-  font-size: 17px;
+
+.bio{
+  background-color: #F8F8FF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25rem;
+  width: 96%;
+  border-radius: 20px;
+  background-color: #F5F5F5;
+}
+
+.container-foto{
+  display: flex;
+  justify-content: center;
+  margin: : 3rem;
+}
+
+.foto-profilo{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro{
+padding: 1rem;
+}
+
+@media screen and (max-width: 426px){
+  .bio{
+    background-color: #F8F8FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35rem;
+    width: 96%;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+  }
 }
