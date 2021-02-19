@@ -24,7 +24,6 @@
 
 .menu-container {
   display: flex;
-  background-color: #2ed47b;
   color: #ffff;
   height: 5rem;
   justify-content: space-around;
@@ -39,11 +38,6 @@
 .links{
   display: flex;
   justify-content: center;
-}
-
-.figa {
-  margin-left: 40px;
-  margin-right: 20px;
 }
 
 .viaggi {
@@ -66,7 +60,7 @@
   justify-content: space-around;
   align-items: center;
   height: 25rem;
-  width: 96%;
+  width: 95%;
   border-radius: 20px;
   background-color: #F5F5F5;
 }
@@ -87,6 +81,43 @@
 padding: 1rem;
 }
 
+
+.container-sections{
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+}
+
+.sections{
+  display: flex;
+  background-color: #F5F5F5;
+  width: 95%;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+
+.head-sections{
+  padding: 50px;
+}
+
+.card {
+  border-radius: 20px;
+  display: flex;
+  }
+
+.card-position{
+  display: flex;
+  justify-content: center;
+  height: 27rem;
+}
+
+.card-img-top{
+  padding: 20px;
+}
+
+
+
 @media screen and (max-width: 426px){
   .bio{
     background-color: #F8F8FF;
@@ -97,5 +128,16 @@ padding: 1rem;
     width: 96%;
     border-radius: 20px;
     background-color: #F5F5F5;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-sections{
+    display: flex;
+    justify-content: center;
+    height: 120rem;
   }
 }
