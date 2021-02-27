@@ -144,9 +144,8 @@ padding: 1rem;
 .carousel-item img {
   display: flex;
   justify-content: center;
-  width: 50rem;
   justify-content: center;
-  margin-bottom: 150px
+  margin-bottom: 150px;
 }
 
 .carousel-caption {
@@ -157,7 +156,96 @@ padding: 1rem;
   left: 200px
   }
 
+  .head-work {
+    padding: 50px;
+  }
 
+.container-viaggi {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.intro-viaggi{
+  display: flex;
+  background-color: #F5F5F5;
+  width: 95%;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-viaggi-text {
+  padding: 50px;
+}
+
+.container-img-viaggi {
+  display: flex;
+  justify-content: center;
+}
+
+.img-viaggi {
+  display: flex;
+  justify-content: center;
+  height: 70%;
+}
+
+.immagini {
+  height: 50px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.profilo-viaggi {
+  display: flex;
+  justify-content: center;
+}
+
+.container-profilo-social{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profilo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 75px;
+}
+
+.container-social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.horizontal-social-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+}
+
+.social-name {
+  padding: 20px;
+  font-weight: bold;
+  font-style: oblique;
+
+}
+
+
+
+@media screen and (max-width: 769px){
+  .img-viaggi{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
 
 @media screen and (max-width: 426px){
   .bio{
@@ -180,6 +268,17 @@ padding: 1rem;
     display: flex;
     justify-content: center;
     height: 120rem;
+  }
+
+  .img-viaggi{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-social-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }
 
 }
