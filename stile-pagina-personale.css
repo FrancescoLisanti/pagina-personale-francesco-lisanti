@@ -350,13 +350,6 @@ padding: 30px;
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 769px){
-  .img-viaggi{
-    display: flex;
-    flex-direction: column;
-  }
-
-}
 
 @media screen and (max-width: 426px){
   .bio{
