@@ -97,7 +97,7 @@ padding: 1rem;
 
 
 .head-sections{
-  padding: 50px;
+  padding: 30px;
 }
 
 .card {
@@ -129,7 +129,7 @@ padding: 1rem;
 }
 
 .head-work{
-  padding: 50px;
+  padding: 30px;
 }
 
 .carousel-inner{
@@ -157,7 +157,7 @@ padding: 1rem;
   }
 
   .head-work {
-    padding: 50px;
+    padding: 30px;
   }
 
 .container-viaggi {
@@ -176,7 +176,7 @@ padding: 1rem;
 }
 
 .intro-viaggi-text {
-  padding: 50px;
+  padding: 30px;
 }
 
 .container-img-viaggi {
@@ -229,7 +229,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 75px;
+  padding: 30px;
 }
 
 .container-social-icons {
@@ -267,7 +267,7 @@ align-items: center;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .intro-startup-text {
@@ -279,13 +279,17 @@ align-items: center;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 50%;
-  height: 350px;
+  width: 30%;
+  height: 150px;
 }
 
 .accordion {
   background-color: white;
   color: black;
+}
+
+.accordion-button {
+  font-size: 1px
 }
 
 .icon-accordion {
@@ -299,7 +303,7 @@ align-items: center;
 }
 
 .container-mvp{
-padding: 50px;
+padding: 30px;
 }
 
 .button-mvp {
@@ -319,7 +323,7 @@ padding: 50px;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .intro-contacts-text {
@@ -329,12 +333,21 @@ padding: 50px;
 .icon-contacts {
   display: flex;
   justify-content: center;
-  margin: 40px;
+  margin: 20px;
 }
 
 .container-contacts-icons {
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.vertical-contacts {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 769px){
@@ -377,6 +390,18 @@ padding: 50px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+  }
+
+  .container-contacts-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5px;
+  }
+
+  .accordion-button {
+    text-align: center;
+    font-size: 2px
   }
 
 }
