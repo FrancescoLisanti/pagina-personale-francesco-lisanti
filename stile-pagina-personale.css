@@ -207,6 +207,24 @@ padding: 1rem;
   flex-direction: column;
 }
 
+.text-mappa{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 50px 10px 50px;
+}
+
+.button-mappa{
+  display: flex;
+  justify-content: center;
+  font-size: 2px;
+}
+
+.btn-success {
+height: 50px;
+align-items: center;
+}
+
 .profilo {
   display: flex;
   flex-direction: column;
@@ -234,10 +252,90 @@ padding: 1rem;
   padding: 20px;
   font-weight: bold;
   font-style: oblique;
-
 }
 
+.container-startup {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
 
+.intro-startup {
+  display: flex;
+  background-color: #F5F5F5;
+  width: 95%;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.intro-startup-text {
+  margin: 30px;
+}
+
+.intro-startup-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+  height: 350px;
+}
+
+.accordion {
+  background-color: white;
+  color: black;
+}
+
+.icon-accordion {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.accordion-body {
+  text-align: left;
+}
+
+.container-mvp{
+padding: 50px;
+}
+
+.button-mvp {
+  width: 100%
+}
+
+.container-contacts {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.intro-contacts {
+  display: flex;
+  background-color: #F5F5F5;
+  width: 95%;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.intro-contacts-text {
+  margin: 30px;
+}
+
+.icon-contacts {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.container-contacts-icons {
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width: 769px){
   .img-viaggi{
